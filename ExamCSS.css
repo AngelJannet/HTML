@@ -1,0 +1,542 @@
+body {
+    font-family: Garamond;
+}
+
+.class1ForHeader {
+    display: flex;
+}
+
+ul {
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 40%;
+    padding-top: 5px;
+}
+
+.button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: right;
+}
+
+p {
+    text-align: center;
+}
+
+.block1 {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 400px;
+}
+
+.text1 {
+    box-sizing: border-box;
+    padding: 4% 5% 6% 5%;
+    border-top: solid silver 1px;
+    width: 50%;
+}
+
+.classimg1 {
+    background-image: url("img/Maldivu.jpg");
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50%;
+}
+
+.block2 {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+}
+
+
+.text2 {
+    box-sizing: border-box;
+    padding: 4% 5% 6% 5%;
+    border-top: solid silver 1px;
+    width: 50%;
+}
+
+.classimg2 {
+    background-image: url("img/Egypt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50%;
+}
+
+.block3 {
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height: 350px;
+}
+
+
+.text3 {
+    box-sizing: border-box;
+    padding: 4% 5% 6% 5%;
+    border-top: solid silver 1px;
+    border-bottom: solid silver 1px;
+    width: 50%;
+}
+
+.classimg3 {
+    background-image: url("img/Italy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 50%;
+}
+
+
+.hvrbox,
+.hvrbox * {
+    box-sizing: border-box;
+}
+
+.hvrbox {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.hvrbox img {
+    height: 250px;
+}
+
+.hvrbox .hvrbox-layer_bottom {
+    display: block;
+}
+
+.hvrbox .hvrbox-layer_top {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+    opacity: 1;
+}
+
+.hvrbox .hvrbox-text {
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.hvrbox .hvrbox-text_mobile {
+    font-size: 15px;
+    border-top: 1px solid rgb(179, 179, 179);
+    /* for old browsers */
+    border-top: 1px solid rgba(179, 179, 179, 0.7);
+    margin-top: 5px;
+    padding-top: 2px;
+    display: none;
+}
+
+.hvrbox.active .hvrbox-text_mobile {
+    display: block;
+}
+
+.airplane,
+.map,
+.movie,
+.alarm,
+.face,
+.genius {
+    box-sizing: border-box;
+    padding: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 230px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    padding: 0%;
+    text-align: center;
+}
+
+label {
+    text-align: left;
+}
+
+.inputdata {
+    margin-top: 5px;
+    border-radius: 5px;
+    height: 20px;
+
+}
+
+.claassfooter {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.datadirectionfooter {
+    display: inline-flex;
+    width: 100%;
+}
+
+.phoneinput {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contactdirectionfooter {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+textarea {
+    border-radius: 5px;
+    height: 100px;
+    width: 99%;
+}
+
+.iconscircle:hover {
+    background-color: silver;
+}
+
+.iconscircle {
+    text-align: center;
+    border: solid silver 1px;
+    border-radius: 100px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .class2ForHeader {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .menu{
+        width: 80%;
+        margin-top: 20px;
+        padding-left: 60%;
+    }
+
+    .block1 {
+        flex-direction: column-reverse;
+        height: 600px;
+    }
+
+    .text1 {
+        height: 50%;
+        width: 100%;
+
+    }
+
+    .classimg1 {
+        height: 50%;
+        width: 100%;
+    }
+
+    .block2 {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .text2 {
+        height: 50%;
+        width: 100%;
+    }
+
+    .classimg2 {
+        height: 50%;
+        width: 100%;
+    }
+
+    .block3 {
+        flex-direction: column-reverse;
+        height: 600px;
+    }
+
+    .text3 {
+        height: 50%;
+        width: 100%;
+    }
+
+    .classimg3 {
+        height: 50%;
+        width: 100%;
+    }
+
+    .gallery600px850px {
+        display: none;
+    }
+
+    .gallery850px {
+        display: none;
+    }
+
+    .gallery600px {
+
+        width: 100%;
+        height: 350px;
+    }
+
+    .hvrbox img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .classfeatures1 {
+        width: 100%;
+    }
+
+    .airplane,
+    .map,
+    .movie,
+    .alarm,
+    .face,
+    .genius {
+        width: 100%;
+        border-bottom: solid silver 1px;
+    }
+
+    .claassfooter {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .datadirectionfooter {
+        flex-wrap: wrap;
+
+    }
+
+    .phoneinput {
+        width: 100%;
+    }
+
+    .inputdata {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+
+    .class2ForHeader {
+        float: right;
+        width: 45%;
+        padding-top: 5px;
+    }
+
+    .icons {
+        float: right;
+        height: 20px;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    span {
+        font-size: 18px;
+
+    }
+
+    .text2 {
+        width: 70%;
+    }
+
+    .classimg2 {
+        width: 30%;
+    }
+
+    .text3 {
+        width: 70%;
+    }
+
+    .classimg3 {
+        width: 30%;
+    }
+
+    .gallery600px {
+        display: none;
+    }
+
+    .gallery600px850px {
+        display: none;
+    }
+
+    .gallery850px {
+        display: flex;
+        width: 100%;
+        height: 250px;
+    }
+
+    .airplane,
+    .map {
+        border-bottom: solid silver 1px;
+        border-right: solid silver 1px;
+    }
+
+    .alarm,
+    .face {
+        border-right: solid silver 1px;
+    }
+
+    .movie {
+        border-bottom: solid silver 1px;
+    }
+
+    .airplane,
+    .map,
+    .movie,
+    .alarm,
+    .face,
+    .genius {
+        width: 33%;
+    }
+
+    .datadirectionfooter {
+        width: 80%;
+    }
+
+    .contactdirectionfooter {
+        width: 80%;
+    }
+
+    .inputdata {
+        width: 90%;
+    }
+
+    .message {
+        width: 80%;
+        box-sizing: border-box;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 850px) {
+
+    ul {
+        width: 140%;
+    }
+
+    .class2ForHeader {
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .gallery600px850px {
+        display: flex;
+        width: 100%;
+        height: 250px;
+    }
+
+    .gallery850px {
+        display: none;
+    }
+
+    .gallery600px {
+        display: none;
+    }
+
+    .airplane,
+    .map,
+    .movie,
+    .alarm,
+    .face,
+    .genius {
+        width: 50%;
+    }
+
+    .airplane,
+    .movie {
+        border-bottom: solid silver 1px;
+        border-right: solid silver 1px;
+    }
+
+    .map,
+    .alarm {
+        border-bottom: solid silver 1px;
+    }
+
+    .face {
+        border-right: solid silver 1px;
+    }
+
+    .inputdata {
+        width: 90%;
+    }
+}
